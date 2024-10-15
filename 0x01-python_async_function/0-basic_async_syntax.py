@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
-"""A module"""
+"""A module used to show the basics of async syntax"""
 
-import random, asyncio
+import asyncio
+import random
 
 
 async def wait_random(max_delay: int = 10) -> float:
